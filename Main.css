@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+  /* cursor: pointer; */
+  /* overflow-x: hidden; */
+}
+.img-container{
+  background-image: url("Assets/Contact.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+.map{
+  /* width: 80%; */
+  /* height: 80vh; */
+  margin: 3.5rem 0 0 2rem;
+  filter: invert(100%);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description h1 {
+  font-size: 6rem;
+  font-weight: lighter;
+}
+.description span {
+  font-size: 1.5rem;
+  color: rgb(63, 62, 62);
+}
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  -webkit-box-shadow: 5px 4px 13px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 4px 13px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 4px 13px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+}
+.contact {
+  width: 80%;
+  margin-left:12%;
+  margin-top: 5%;
+  position: static;
+  left: 8%;
+  /* margin: 5% 0 0 0; */
+  display: flex;
+  z-index: -1;
+  /* font-size: 6rem; */
+  /* border: 2px solid red; */
+}
+input{
+  margin: 1rem 2rem;
+  width: 41%;
+  height: 5rem;
+  padding: 1rem 0 1rem 3rem;
+  box-shadow: 1px 1px 6px 4px rgb(190, 160, 255, 0.329);
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+}
+input:focus {
+  outline: none;
+}
+.textarea {
+  margin: 2rem 0;
+  box-shadow: 1px 1px 6px 4px rgba(190, 160, 255, 0.329);
+  border-radius: 2rem;
+  width: 80%;
+}
+textarea {
+  border: none;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+}
+ textarea:focus {
+  outline: none;
+}
+.submit {
+  border: none;
+  background: #212529;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.social-media div img {
+  width: 8rem;
+}
+.social-media div {
+  width: 33.3%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 0 8rem 0;
+  text-align: center;
+  box-shadow: 1px 1px 6px 4px rgb(190, 160, 255, 0.329);
+  border-radius: 1rem;
+  margin: 1rem;
+  height: 30%;
+  cursor: pointer;
+}
+.social-media div:hover {
+  transition: all 0.6s;
+  transform: translateY(-1rem);
+}
+.social-media {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 90%;
+  margin: 5rem 0 0 10rem;
+  align-items: center;
+  justify-content: center;
+}
+.social-media div h1 {
+  font-weight: lighter;
+}
+.social-media div span {
+  font-size: 1.6rem;
+}
+.disclaimer h1 {
+  color: rgb(255, 183, 49);
+  margin: 2rem 0 2rem 0;
+}
+.disclaimer {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10rem 0 10rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 1.5rem 0 0 0;
+  background-color: rgb(28, 24, 24);
+}
+.aeronpay {
+  display: flex;
+  width: 90%;
+  margin: 5rem 0 0 10rem;
+  /* border: 2px solid red; */
+}
+.footer-links {
+  display: flex;
+  width: 100%;
+}
+.aeronpay div img {
+  width: 20rem;
+}
+.aeronpay-logo {
+  width: 25%;
+  margin: 0 5rem 0 0;
+}
+.aeronpay-logo p {
+  color: rgb(147, 147, 147);
+  font-size: 1.5rem;
+}
+.footer-links {
+  color: white;
+  /* border: 2px solid red; */
+  margin: 0 0 0 10rem;
+}
+.footer-links div ul li {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  font-size: 1.4rem;
+  color: rgb(147, 147, 147);
+}
+.footer-links h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+footer-links-div-4{
+    width: 50%;
+    border: 2px solid green;
+}
+#footer-links-div-1{
+    width: 20%;
+}
+#footer-links-div-2{
+    width: 20%;
+
+}
+#footer-links-div-3{
+    width: 20%;
+    border: green;
+} 
+.bottom{
+  display: flex;
+  height: 20%;
+  color: white;
+  padding: 2rem 0;
+  margin: 2rem 0 0 10rem;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.bottom div{
+  font-size: 1.4rem;
+}
+.bottom img{
+  width: 12%;
+  margin: 0 0 0 1rem;
+}
+@media (max-width: 62em) {
+  .contact {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .input-field {
+    width: 80%;
+  }
+  .social-media {
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .social-media div {
+    width: 100%;
+  }
+  .aeronpay{
+    flex-direction: column;
+  }
+  .footer-links{
+    flex-direction: column;
+    margin: 8rem 0 0 0;
+  }
+  .footer-links div{
+    margin: 2rem 0 0 0;
+  }
+  .aeronpay-logo{
+    width: 50%;
+  }
+  .bottom{
+    flex-direction: column;
+  }
+  .bottom div{
+    margin: 2rem 0 0 0;
+  }
+}
